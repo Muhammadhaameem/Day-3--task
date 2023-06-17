@@ -1,4 +1,13 @@
 # Day-3--task
+question no.1
+
+let obj1=
+{"name":"person1","age":5}
+let obj2=
+{"age":5,"name":person1}
+console.log(obj1==obj2)
+
+
 question no.2
 var request=new XMLHttpRequest()
     request.open('GET','https://restcountries.com/v3.1/all')
